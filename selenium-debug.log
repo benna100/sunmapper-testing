@@ -1,0 +1,111 @@
+22:36:51.192 INFO - Selenium build info: version: '3.0.0', revision: '350cf60'
+22:36:51.193 INFO - Launching a standalone Selenium Server
+2016-10-24 22:36:51.208:INFO::main: Logging initialized @204ms
+22:36:51.253 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:36:51.253 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+22:36:51.253 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:36:51.253 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+22:36:51.258 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2016-10-24 22:36:51.287:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-10-24 22:36:51.310:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
+2016-10-24 22:36:51.386:INFO:osjs.ServerConnector:main: Started ServerConnector@3ffc5af1{HTTP/1.1}{0.0.0.0:4444}
+2016-10-24 22:36:51.386:INFO:osjs.Server:main: Started @383ms
+22:36:51.386 INFO - Selenium Server is up and running
+22:36:51.584 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+22:36:51.609 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+22:36:51.615 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf) on port 7857
+Only local connections are allowed.
+22:36:52.331 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+22:36:53.721 INFO - Detected dialect: OSS
+22:36:53.734 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+22:36:53.748 INFO - Executing: [get: http://solar-potential-version-3.azurewebsites.net])
+22:37:00.190 INFO - Done: [get: http://solar-potential-version-3.azurewebsites.net]
+22:37:00.211 INFO - Executing: [find elements: By.cssSelector: body])
+22:37:00.251 INFO - Done: [find elements: By.cssSelector: body]
+22:37:00.256 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: body]])
+22:37:00.270 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: body]]
+22:37:00.277 INFO - Executing: [get title])
+22:37:00.289 INFO - Done: [get title]
+22:37:00.296 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
+22:37:00.313 INFO - Done: [find element: By.cssSelector: .welcome-screen]
+22:37:00.319 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen]])
+22:37:00.333 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen]]
+22:37:00.345 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
+22:37:00.354 INFO - Done: [find element: By.cssSelector: .welcome-screen]
+22:37:00.358 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen]])
+22:37:00.367 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen]]
+22:37:00.374 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
+22:37:00.391 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
+22:37:00.395 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+22:37:00.441 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+22:37:00.451 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:37:00.469 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:37:00.977 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:37:00.992 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:37:00.998 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+22:37:01.018 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+22:37:01.023 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:37:01.039 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:37:01.043 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+22:37:01.052 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+22:37:01.061 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
+22:37:01.078 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
+22:37:01.084 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+22:37:01.127 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+22:37:01.132 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:37:01.150 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:37:01.659 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:37:01.679 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:37:01.686 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+22:37:01.707 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+22:37:01.713 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:37:01.730 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:37:01.734 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+22:37:01.742 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+22:37:01.748 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
+22:37:01.755 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
+22:37:01.759 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__input], [?]])
+22:37:01.779 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__input], [?]]
+22:37:01.785 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:37:01.793 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:37:01.799 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+22:37:01.805 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+22:37:01.810 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)])
+22:37:01.827 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)]
+22:37:01.831 INFO - Executing: [get element attribute: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class])
+22:37:01.842 INFO - Done: [get element attribute: 8 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class]
+22:37:01.850 INFO - Executing: [get: http://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018])
+22:37:02.118 INFO - Done: [get: http://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018]
+22:37:02.123 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
+22:37:02.144 INFO - Done: [find elements: By.cssSelector: .adress-tile]
+22:37:02.652 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
+22:37:02.675 INFO - Done: [find elements: By.cssSelector: .adress-tile]
+22:37:02.684 INFO - Executing: [is displayed: 12 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-tile]])
+22:37:02.713 INFO - Done: [is displayed: 12 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-tile]]
+22:37:02.727 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
+22:37:02.737 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
+22:37:02.745 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+22:37:02.796 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+22:37:02.800 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:37:02.809 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:37:03.318 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:37:03.340 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:37:03.350 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+22:37:03.385 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+22:37:03.392 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:37:03.401 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:37:03.406 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+22:37:03.416 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+22:37:03.422 INFO - Executing: [find element: By.cssSelector: .adress-tile__adress-name])
+22:37:03.436 INFO - Done: [find element: By.cssSelector: .adress-tile__adress-name]
+22:37:03.440 INFO - Executing: [get text: 18 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-tile__adress-name]])
+22:37:03.457 INFO - Done: [get text: 18 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .adress-tile__adress-name]]
+22:37:03.464 INFO - Executing: [find element: By.cssSelector: .find-supplier])
+22:37:03.478 INFO - Done: [find element: By.cssSelector: .find-supplier]
+22:37:03.482 INFO - Executing: [is displayed: 19 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .find-supplier]])
+22:37:03.497 INFO - Done: [is displayed: 19 [[ChromeDriver: chrome on XP (0fe3687f9ff56d11fbd60b9ce1ac3aa4)] -> css selector: .find-supplier]]
+22:37:03.504 INFO - Executing: [delete session: eb316322-6551-4b34-978e-3bfab8936838])
+22:37:04.342 INFO - Done: [delete session: eb316322-6551-4b34-978e-3bfab8936838]

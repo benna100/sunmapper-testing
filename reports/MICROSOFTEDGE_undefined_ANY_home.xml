@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="8">
+
+  <testsuite name="home"
+    errors="0" failures="0" hostname="" id="" package="home" skipped="0"
+    tests="8" time="4.657" timestamp="Mon, 24 Oct 2016 20:35:38 GMT">
+  
+    <testcase name="Load sunmapper.com" time="1.822" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Welcomescreen visible" time="0.03200" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Header autocomplete suggestions" time="0.6210" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Main autocomplete suggestions" time="0.6690" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Load specific housepage" time="0.8410" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Specific housepage autocomplete suggestions" time="0.6290" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Correct house" time="0.02200" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Find leverandører visible" time="0.02100" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,205 +1,111 @@
-21:34:15.156 INFO - Selenium build info: version: '3.0.0', revision: '350cf60'
-21:34:15.157 INFO - Launching a standalone Selenium Server
-2016-11-01 21:34:15.171:INFO::main: Logging initialized @203ms
-21:34:15.215 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-21:34:15.215 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+21:46:55.126 INFO - Selenium build info: version: '3.0.0', revision: '350cf60'
+21:46:55.127 INFO - Launching a standalone Selenium Server
+2016-11-01 21:46:55.141:INFO::main: Logging initialized @200ms
+21:46:55.184 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:46:55.185 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-21:34:15.215 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-21:34:15.215 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-21:34:15.221 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+21:46:55.185 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:46:55.185 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+21:46:55.190 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2016-11-01 21:34:15.248:INFO:osjs.Server:main: jetty-9.2.15.v20160210
-2016-11-01 21:34:15.268:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
-2016-11-01 21:34:15.343:INFO:osjs.ServerConnector:main: Started ServerConnector@26653222{HTTP/1.1}{0.0.0.0:4444}
-2016-11-01 21:34:15.344:INFO:osjs.Server:main: Started @376ms
-21:34:15.344 INFO - Selenium Server is up and running
-21:34:15.536 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-21:34:15.562 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-21:34:15.568 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-1478032455770	geckodriver	INFO	Listening on 127.0.0.1:2475
-21:34:16.305 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1478032456331	mozprofile::profile	INFO	Using profile path C:\Users\benjamin\AppData\Local\Temp\rust_mozprofile.UPjxq9RuUape
-1478032456339	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1478032456346	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52574
-1478032456847	addons.manager	DEBUG	Application has been upgraded
-1478032456881	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
-1478032456882	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
-1478032456885	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
-1478032456886	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
-1478032456886	addons.manager	DEBUG	Starting provider: XPIProvider
-1478032456886	addons.xpi	DEBUG	startup
-1478032456887	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
-1478032456887	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
-1478032456888	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
-1478032456888	addons.xpi	INFO	Mapping loop@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1478032456888	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1478032456889	addons.xpi	DEBUG	checkForChanges
-1478032456889	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
-1478032456890	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
-1478032456890	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
-1478032456890	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
-1478032456890	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
-1478032456891	addons.xpi	DEBUG	New add-on loop@mozilla.org in app-system-defaults
-1478032456891	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
-1478032456891	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1478032456892	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1478032456892	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1466734942000},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1466734942000},"loop@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","st":1466734942000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1466734942000}}}
-1478032456897	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\benjamin\AppData\Local\Temp\rust_mozprofile.UPjxq9RuUape\extensions.json
-1478032456898	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
-*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
-1478032456908	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456908	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
-1478032456914	DeferredSave.extensions.json	DEBUG	Starting timer
-1478032456915	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456915	addons.xpi-utils	DEBUG	New add-on loop@mozilla.org installed in app-system-defaults
-1478032456922	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456923	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
-1478032456929	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456929	addons.xpi-utils	INFO	Hiding the updated system add-ons.
-1478032456933	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
-1478032456941	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.0
-1478032456941	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
-1478032456941	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456942	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
-1478032456944	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.2
-1478032456944	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
-1478032456944	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456945	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1478032456948	addons.xpi	DEBUG	Calling bootstrap method install on loop@mozilla.org version 1.3.2
-1478032456948	addons.xpi-utils	DEBUG	Make addon app-system-defaults:loop@mozilla.org visible
-1478032456949	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456949	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
-1478032456949	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456949	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"3cy2Ef0eQQfv","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1466734942000,"updateDate":1466734942000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4584,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
-1478032456949	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
-1478032456950	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"1UvXuLjVWYa0","location":"app-system-defaults","version":"1.0.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1466734942000,"updateDate":1466734942000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":894477,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
-1478032456950	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
-1478032456950	addons.xpi	DEBUG	Updating XPIState for {"id":"loop@mozilla.org","syncGUID":"YsAFkEyrWxbA","location":"app-system-defaults","version":"1.3.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Hello","description":"Web sharing for Firefox","creator":"Mozilla","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","installDate":1466734942000,"updateDate":1466734942000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4239168,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0a1","maxVersion":"47.*"},{"id":"xpcshell@tests.mozilla.org","minVersion":"0","maxVersion":"10"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
-1478032456950	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
-1478032456951	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"OniYuiH6RsM5","location":"app-global","version":"47.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1466734942000,"updateDate":1466734942000,"applyBackgroundUpdates":1,"skinnable":true,"size":22012,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"seen":true}
-1478032456951	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
-1478032456952	DeferredSave.extensions.json	DEBUG	Save changes
-1478032456952	addons.xpi	DEBUG	Updating database with changes to installed add-ons
-1478032456952	addons.xpi-utils	DEBUG	Updating add-on states
-1478032456952	addons.xpi-utils	DEBUG	Writing add-ons list
-1478032456957	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
-1478032456957	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
-1478032456958	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
-1478032456958	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
-1478032456959	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1478032456959	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
-1478032456974	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1478032456974	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1478032456974	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1478032456974	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1478032456974	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1478032456975	addons.manager	DEBUG	Starting provider: GMPProvider
-1478032456980	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1478032456980	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1478032456980	addons.manager	DEBUG	Starting provider: PluginProvider
-1478032456981	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1478032456981	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1478032456981	addons.manager	DEBUG	Completed startup sequence
-1478032457229	Marionette	INFO	Listening on port 52574
-1478032457393	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1478032457393	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1478032457393	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1478032457515	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1478032457515	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1478032457515	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-1478032457516	DeferredSave.extensions.json	DEBUG	Starting write
-1478032457840	DeferredSave.extensions.json	DEBUG	Write succeeded
-1478032457840	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
-21:34:18.685 INFO - Detected dialect: W3C
-21:34:18.705 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@7a1eb587, browserName=firefox, javascriptEnabled=true, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@7a1eb587, platform=ANY}]]
-21:34:18.725 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net])
-JavaScript warning: https://rec.getsmartlook.com/recorder.js, line 12: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
-21:34:20.157 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net]
-21:34:20.166 INFO - Executing: [find elements: By.cssSelector: body])
-21:34:20.184 INFO - Done: [find elements: By.cssSelector: body]
-21:34:20.189 INFO - Executing: [is displayed: 0 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: body]])
-21:34:20.264 INFO - Done: [is displayed: 0 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: body]]
-21:34:20.272 INFO - Executing: [get title])
-21:34:20.281 INFO - Done: [get title]
-21:34:20.288 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
-21:34:20.299 INFO - Done: [find element: By.cssSelector: .welcome-screen]
-21:34:20.304 INFO - Executing: [is displayed: 1 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen]])
-21:34:20.337 INFO - Done: [is displayed: 1 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen]]
-21:34:20.352 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
-21:34:20.372 INFO - Done: [find element: By.cssSelector: .welcome-screen]
-21:34:20.377 INFO - Executing: [is displayed: 1 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen]])
-21:34:20.418 INFO - Done: [is displayed: 1 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen]]
-21:34:20.427 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
-21:34:20.438 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
-21:34:20.443 INFO - Executing: [send keys: 2 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
-21:34:20.524 INFO - Done: [send keys: 2 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
-21:34:20.544 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:34:20.634 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:34:21.143 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:34:21.193 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:34:21.198 INFO - Executing: [is displayed: 3 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:34:21.217 INFO - Done: [is displayed: 3 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:34:21.223 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:34:21.229 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:34:21.233 INFO - Executing: [is displayed: 3 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:34:21.249 INFO - Done: [is displayed: 3 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:34:21.257 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
-21:34:21.262 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
-21:34:21.265 INFO - Executing: [send keys: 7 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]])
-21:34:21.292 INFO - Done: [send keys: 7 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]]
-21:34:21.296 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:34:21.301 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:34:21.809 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:34:21.827 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:34:21.839 INFO - Executing: [is displayed: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
-21:34:21.883 INFO - Done: [is displayed: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
-21:34:21.891 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:34:21.905 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:34:21.912 INFO - Executing: [is displayed: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
-21:34:21.941 INFO - Done: [is displayed: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
-21:34:21.948 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
-21:34:21.956 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
-21:34:21.962 INFO - Executing: [send keys: 7 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__input], [?]])
-21:34:21.981 INFO - Done: [send keys: 7 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__input], [?]]
-21:34:21.987 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:34:21.993 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:34:21.998 INFO - Executing: [is displayed: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
-21:34:22.016 INFO - Done: [is displayed: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
-21:34:22.021 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)])
-21:34:22.027 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)]
-21:34:22.030 INFO - Executing: [get element attribute: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class])
-21:34:22.040 INFO - Done: [get element attribute: 8 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class]
-21:34:22.048 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018])
-JavaScript warning: https://rec.getsmartlook.com/recorder.js, line 12: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
-21:34:22.613 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018]
-21:34:22.619 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
-21:34:22.625 INFO - Done: [find elements: By.cssSelector: .adress-tile]
-21:34:22.629 INFO - Executing: [is displayed: 12 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-tile]])
-21:34:22.645 INFO - Done: [is displayed: 12 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-tile]]
-21:34:22.652 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
-21:34:22.658 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
-21:34:22.662 INFO - Executing: [send keys: 13 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
-21:34:22.686 INFO - Done: [send keys: 13 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
-21:34:22.690 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:34:22.704 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:34:23.209 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:34:23.215 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:34:23.220 INFO - Executing: [is displayed: 14 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:34:23.245 INFO - Done: [is displayed: 14 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:34:23.250 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:34:23.254 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:34:23.258 INFO - Executing: [is displayed: 14 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:34:23.274 INFO - Done: [is displayed: 14 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:34:23.280 INFO - Executing: [find element: By.cssSelector: .adress-tile__adress-name])
-21:34:23.285 INFO - Done: [find element: By.cssSelector: .adress-tile__adress-name]
-21:34:23.288 INFO - Executing: [get text: 18 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-tile__adress-name]])
-21:34:23.295 INFO - Done: [get text: 18 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .adress-tile__adress-name]]
-21:34:23.302 INFO - Executing: [find element: By.cssSelector: .find-supplier])
-21:34:23.308 INFO - Done: [find element: By.cssSelector: .find-supplier]
-21:34:23.311 INFO - Executing: [is displayed: 19 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .find-supplier]])
-21:34:23.330 INFO - Done: [is displayed: 19 [[FirefoxDriver: Firefox on XP (fc53b060-2575-413f-8c68-4814bc4242e0)] -> css selector: .find-supplier]]
-21:34:23.337 INFO - Executing: [delete session: bf41ace8-9eaf-4d17-9077-edf54d0a2f88])
-1478032463344	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
-1478032463344	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
-1478032463344	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
-21:34:23.736 INFO - Done: [delete session: bf41ace8-9eaf-4d17-9077-edf54d0a2f88]
+2016-11-01 21:46:55.218:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-11-01 21:46:55.239:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
+2016-11-01 21:46:55.316:INFO:osjs.ServerConnector:main: Started ServerConnector@26653222{HTTP/1.1}{0.0.0.0:4444}
+2016-11-01 21:46:55.316:INFO:osjs.Server:main: Started @376ms
+21:46:55.316 INFO - Selenium Server is up and running
+21:46:55.505 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+21:46:55.531 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]])
+21:46:55.536 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]
+[21:46:55.735] - Listening on http://localhost:21575/ 
+21:46:56.262 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+21:46:56.795 INFO - Detected dialect: OSS
+21:46:56.811 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]]
+21:46:56.827 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net])
+21:46:57.916 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net]
+21:46:57.938 INFO - Executing: [find elements: By.cssSelector: body])
+21:46:57.966 INFO - Done: [find elements: By.cssSelector: body]
+21:46:57.970 INFO - Executing: [is displayed: 0 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: body]])
+21:46:57.975 INFO - Done: [is displayed: 0 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: body]]
+21:46:57.981 INFO - Executing: [get title])
+21:46:57.985 INFO - Done: [get title]
+21:46:57.991 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
+21:46:57.995 INFO - Done: [find element: By.cssSelector: .welcome-screen]
+21:46:58.000 INFO - Executing: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]])
+21:46:58.006 INFO - Done: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]]
+21:46:58.016 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
+21:46:58.022 INFO - Done: [find element: By.cssSelector: .welcome-screen]
+21:46:58.025 INFO - Executing: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]])
+21:46:58.030 INFO - Done: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]]
+21:46:58.038 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
+21:46:58.043 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
+21:46:58.048 INFO - Executing: [send keys: 2 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+21:46:58.070 INFO - Done: [send keys: 2 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+21:46:58.076 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+21:46:58.080 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+21:46:58.588 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+21:46:58.600 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+21:46:58.611 INFO - Executing: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+21:46:58.619 INFO - Done: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+21:46:58.628 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+21:46:58.635 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+21:46:58.641 INFO - Executing: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+21:46:58.646 INFO - Done: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+21:46:58.661 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
+21:46:58.667 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
+21:46:58.675 INFO - Executing: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+21:46:58.708 INFO - Done: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+21:46:58.714 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+21:46:58.723 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+21:46:59.234 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+21:46:59.245 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+21:46:59.259 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+21:46:59.271 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+21:46:59.283 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+21:46:59.289 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+21:46:59.295 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+21:46:59.301 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+21:46:59.310 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
+21:46:59.313 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
+21:46:59.320 INFO - Executing: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [?]])
+21:46:59.327 INFO - Done: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [?]]
+21:46:59.331 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+21:46:59.336 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+21:46:59.340 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+21:46:59.344 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+21:46:59.350 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)])
+21:46:59.357 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)]
+21:46:59.361 INFO - Executing: [get element attribute: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class])
+21:46:59.367 INFO - Done: [get element attribute: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class]
+21:46:59.379 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018])
+21:46:59.642 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018]
+21:46:59.650 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
+21:46:59.656 INFO - Done: [find elements: By.cssSelector: .adress-tile]
+21:47:00.164 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
+21:47:00.174 INFO - Done: [find elements: By.cssSelector: .adress-tile]
+21:47:00.181 INFO - Executing: [is displayed: 12 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile]])
+21:47:00.187 INFO - Done: [is displayed: 12 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile]]
+21:47:00.199 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
+21:47:00.205 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
+21:47:00.212 INFO - Executing: [send keys: 13 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+21:47:00.231 INFO - Done: [send keys: 13 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+21:47:00.237 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+21:47:00.241 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+21:47:00.749 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+21:47:00.759 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+21:47:00.769 INFO - Executing: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+21:47:00.797 INFO - Done: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+21:47:00.805 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+21:47:00.811 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+21:47:00.815 INFO - Executing: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+21:47:00.820 INFO - Done: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+21:47:00.828 INFO - Executing: [find element: By.cssSelector: .adress-tile__adress-name])
+21:47:00.832 INFO - Done: [find element: By.cssSelector: .adress-tile__adress-name]
+21:47:00.837 INFO - Executing: [get text: 18 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile__adress-name]])
+21:47:00.840 INFO - Done: [get text: 18 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile__adress-name]]
+21:47:00.847 INFO - Executing: [find element: By.cssSelector: .find-supplier])
+21:47:00.853 INFO - Done: [find element: By.cssSelector: .find-supplier]
+21:47:00.857 INFO - Executing: [is displayed: 19 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .find-supplier]])
+21:47:00.860 INFO - Done: [is displayed: 19 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .find-supplier]]
+21:47:00.868 INFO - Executing: [delete session: f7d4fff1-3ae3-44d6-8365-44419cda6b73])
+[21:47:03.061] - Stopping server.
+21:47:03.865 INFO - Done: [delete session: f7d4fff1-3ae3-44d6-8365-44419cda6b73]

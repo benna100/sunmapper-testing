@@ -6,4 +6,4 @@ nightwatch --env chrome --url=https://solar-potential-version-3.azurewebsites.ne
 
 nightwatch --env firefox --url=https://solar-potential-version-3.azurewebsites.net/
 
-nightwatch --env andorid --url=https://solar-potential-version-3.azurewebsites.net/
+nightwatch --env android --url=https://solar-potential-version-3.azurewebsites.net/

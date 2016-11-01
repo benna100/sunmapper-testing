@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="8">
+            tests="9">
 
   <testsuite name="home"
     errors="0" failures="0" hostname="" id="" package="home" skipped="0"
-    tests="8" time="4.615" timestamp="Tue, 01 Nov 2016 07:12:14 GMT">
+    tests="9" time="5.445" timestamp="Tue, 01 Nov 2016 20:46:55 GMT">
   
-    <testcase name="Load sunmapper.com" time="1.956" assertions="3">
+    <testcase name="Load sunmapper.com" time="2.616" assertions="3">
 
     
 
@@ -16,47 +16,50 @@
     
     </testcase>
   
-    <testcase name="Welcomescreen visible" time="0.02300" assertions="1">
+    <testcase name="Welcomescreen visible" time="0.01800" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Header autocomplete suggestions" time="0.5770" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Main autocomplete suggestions" time="0.6380" assertions="4">
-
-    
-
-    
+    <testcase name="Header autocomplete suggestions" time="0.6170" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Load specific housepage" time="0.8200" assertions="1">
+    <testcase name="Main autocomplete suggestions" time="0.7160" assertions="4">
+
+    
+
+    
+
+    
 
     
     </testcase>
   
-    <testcase name="Specific housepage autocomplete suggestions" time="0.5700" assertions="2">
+    <testcase name="Menu expands on mobile" time="0.000" assertions="0">
+    </testcase>
+  
+    <testcase name="Load specific housepage" time="0.8130" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Specific housepage autocomplete suggestions" time="0.6280" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Correct house" time="0.01600" assertions="1">
+    <testcase name="Correct house" time="0.01900" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Find leverandører visible" time="0.01500" assertions="1">
+    <testcase name="Find leverandører visible" time="0.01800" assertions="1">
 
     
     </testcase>

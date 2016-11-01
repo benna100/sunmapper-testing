@@ -5,9 +5,9 @@
 
   <testsuite name="home"
     errors="0" failures="0" hostname="" id="" package="home" skipped="0"
-    tests="9" time="7.893" timestamp="Tue, 01 Nov 2016 20:34:15 GMT">
+    tests="9" time="7.805" timestamp="Tue, 01 Nov 2016 20:46:33 GMT">
   
-    <testcase name="Load sunmapper.com" time="4.918" assertions="3">
+    <testcase name="Load sunmapper.com" time="4.864" assertions="3">
 
     
 
@@ -16,50 +16,50 @@
     
     </testcase>
   
-    <testcase name="Welcomescreen visible" time="0.07600" assertions="1">
+    <testcase name="Welcomescreen visible" time="0.05000" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Header autocomplete suggestions" time="0.8290" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Main autocomplete suggestions" time="0.7880" assertions="4">
-
-    
-
-    
+    <testcase name="Header autocomplete suggestions" time="0.7370" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Menu expands on mobile" time="0.000" assertions="0">
-    </testcase>
-  
-    <testcase name="Load specific housepage" time="0.6020" assertions="1">
+    <testcase name="Main autocomplete suggestions" time="0.7100" assertions="4">
 
     
-    </testcase>
-  
-    <testcase name="Specific housepage autocomplete suggestions" time="0.6260" assertions="2">
+
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Correct house" time="0.02000" assertions="1">
+    <testcase name="Menu expands on mobile" time="0.001000" assertions="0">
+    </testcase>
+  
+    <testcase name="Load specific housepage" time="0.5150" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Find leverandører visible" time="0.03400" assertions="1">
+    <testcase name="Specific housepage autocomplete suggestions" time="0.8310" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Correct house" time="0.06000" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Find leverandører visible" time="0.03700" assertions="1">
 
     
     </testcase>

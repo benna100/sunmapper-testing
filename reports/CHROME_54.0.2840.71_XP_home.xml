@@ -5,9 +5,9 @@
 
   <testsuite name="home"
     errors="0" failures="0" hostname="" id="" package="home" skipped="0"
-    tests="9" time="12.18" timestamp="Tue, 01 Nov 2016 20:33:53 GMT">
+    tests="9" time="6.862" timestamp="Tue, 01 Nov 2016 20:46:45 GMT">
   
-    <testcase name="Load sunmapper.com" time="10.18" assertions="3">
+    <testcase name="Load sunmapper.com" time="3.786" assertions="3">
 
     
 
@@ -16,46 +16,50 @@
     
     </testcase>
   
-    <testcase name="Welcomescreen visible" time="0.02400" assertions="1">
+    <testcase name="Welcomescreen visible" time="0.02700" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Header autocomplete suggestions" time="0.000" assertions="0">
-    </testcase>
-  
-    <testcase name="Main autocomplete suggestions" time="0.8410" assertions="4">
-
-    
-
-    
+    <testcase name="Header autocomplete suggestions" time="0.6650" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Menu expands on mobile" time="0.1330" assertions="2">
+    <testcase name="Main autocomplete suggestions" time="0.8230" assertions="4">
+
+    
+
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Load specific housepage" time="0.8830" assertions="1">
+    <testcase name="Menu expands on mobile" time="0.000" assertions="0">
+    </testcase>
+  
+    <testcase name="Load specific housepage" time="0.8300" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Specific housepage autocomplete suggestions" time="0.000" assertions="0">
-    </testcase>
-  
-    <testcase name="Correct house" time="0.06400" assertions="1">
+    <testcase name="Specific housepage autocomplete suggestions" time="0.6530" assertions="2">
+
+    
 
     
     </testcase>
   
-    <testcase name="Find leverandører visible" time="0.05100" assertions="1">
+    <testcase name="Correct house" time="0.04600" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Find leverandører visible" time="0.03200" assertions="1">
 
     
     </testcase>

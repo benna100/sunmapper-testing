@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="8">
+
+  <testsuite name="home"
+    errors="0" failures="1" hostname="" id="" package="home" skipped="7"
+    tests="8" time="7.972" timestamp="Tue, 01 Nov 2016 19:51:22 GMT">
+  
+    <testcase name="Load sunmapper.com" time="7.972" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 5000 milliseconds.">    at Object.module.exports.Load sunmapper.com (F:\git-projekter\testing\nightwatch\sunmapper-tests\tests\home.js:17:14)</failure>
+<system-out>[[ATTACHMENT|F:\git-projekter\testing\nightwatch\sunmapper-tests\screenshots\home\Load-sunmapper.com_ERROR_Nov-01-2016-205130-GMT+0100-(Romance-Standard.png]]</system-out>
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Welcomescreen visible">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Header autocomplete suggestions">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Main autocomplete suggestions">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Load specific housepage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Specific housepage autocomplete suggestions">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Correct house">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Find leverandører visible">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

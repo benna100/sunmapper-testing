@@ -4,8 +4,8 @@ module.exports = {
         process.argv.forEach(function(argument) {
             if (argument.indexOf('url') !== -1) {
                 client.testUrl = argument.split('=')[1];
-                if(client.testUrl.charAt(client.testUrl.length - 1) == '/'){
-                    client.testUrl = client.testUrl.substring(0,client.testUrl.length - 1);
+                if (client.testUrl.charAt(client.testUrl.length - 1) == '/') {
+                    client.testUrl = client.testUrl.substring(0, client.testUrl.length - 1);
 
                 }
             }
@@ -24,10 +24,15 @@ module.exports = {
             .assert.visible('.welcome-screen');
     },
     'Header autocomplete suggestions': function(client) {
-        client
-            .setValue('.adress-search__header .adress-search__input', 'taskebjer')
-            .waitForElementVisible('.adress-search__header .adress-search__autocomplete-item', 5000)
-            .assert.visible('.adress-search__header .adress-search__autocomplete-item');
+        /*
+            Dont test for header autocomplete as header search is gone on mobile
+        */
+        if (client.options.desiredCapabilities.platform !== "android") {
+            client
+                .setValue('.adress-search__header .adress-search__input', 'taskebjer')
+                .waitForElementVisible('.adress-search__header .adress-search__autocomplete-item', 5000)
+                .assert.visible('.adress-search__header .adress-search__autocomplete-item');
+        }
     },
     'Main autocomplete suggestions': function(client) {
 
@@ -39,16 +44,26 @@ module.exports = {
             .waitForElementVisible('.welcome-screen .adress-search__autocomplete-item', 5000)
             .assert.cssClassPresent(".welcome-screen .adress-search__autocomplete-item:nth-of-type(1)", "adress-search__autocomplete-item--active");
     },
+    'Menu expands on mobile': function(client) {
+        if (client.options.desiredCapabilities.platform === "android") {
+            client
+                .click(".mobile-menu")
+                .assert.visible('.header-link[href="/about"]')
+                .assert.visible('.header-link[href="/faq"]');
+        }
+    },
     'Load specific housepage': function(client) {
         client
             .url(client.testUrl + '/house-page/0a3f50c5-3256-32b8-e044-0003ba298018')
             .waitForElementVisible('.adress-tile', 5000);
     },
     'Specific housepage autocomplete suggestions': function(client) {
-        client
-            .setValue('.adress-search__header .adress-search__input', 'taskebjer')
-            .waitForElementVisible('.adress-search__header .adress-search__autocomplete-item', 5000)
-            .assert.visible('.adress-search__header .adress-search__autocomplete-item');
+        if (client.options.desiredCapabilities.platform !== "android") {
+            client
+                .setValue('.adress-search__header .adress-search__input', 'taskebjer')
+                .waitForElementVisible('.adress-search__header .adress-search__autocomplete-item', 5000)
+                .assert.visible('.adress-search__header .adress-search__autocomplete-item');
+        }
     },
     'Correct house': function(client) {
         client
@@ -57,6 +72,14 @@ module.exports = {
     'Find leverandører visible': function(client) {
         client
             .assert.visible('.find-supplier');
+    },
+    'Menu expands on mobile': function(client) {
+        if (client.options.desiredCapabilities.platform === "android") {
+            client
+                .click(".mobile-menu")
+                .assert.visible('.header-link[href="/about"]')
+                .assert.visible('.header-link[href="/faq"]');
+        }
     },
     after: function(client) {
         client.end();

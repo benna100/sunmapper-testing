@@ -1,0 +1,14 @@
+test liste:
+- tests med en hvor cookies bliver accepteret og en hvor de ikke gør
+- teste om man kan tabbe ind, skrive en adresse og trykke på enter
+- skrive adresse, klikke på søge ikonet og få hus
+- Teste om uddyb knapperne virker
+- teste om værdierne ændrer sig, når man slider og når man skriver værdi
+- teste om når man skriver 
+- er find suppliers i midten.
+
+
+
+- bettet tab indication
+
+-hvorfor kan den ikke loade localhost?

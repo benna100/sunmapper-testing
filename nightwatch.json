@@ -68,7 +68,6 @@
                 "enabled": true,
                 "path": "screenshots"
             },
-            "isMobile": true,
             "desiredCapabilities": {
                 "platform": "android",
                 "browserName": "chrome",
@@ -76,6 +75,26 @@
                     "args": [
                         "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A",
                         "--window-size=320,640"
+                    ]
+                },
+                "javascriptEnabled": true,
+                "acceptSslCerts": true
+            }
+        },
+        "tablet": {
+            "launch_url": "http://localhost",
+            "port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "screenshots": {
+                "enabled": true,
+                "path": "screenshots"
+            },
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "chromeOptions": {
+                    "args": [
+                        "--window-size=1024,600"
                     ]
                 },
                 "javascriptEnabled": true,

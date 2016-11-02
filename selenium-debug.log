@@ -1,111 +1,336 @@
-21:46:55.126 INFO - Selenium build info: version: '3.0.0', revision: '350cf60'
-21:46:55.127 INFO - Launching a standalone Selenium Server
-2016-11-01 21:46:55.141:INFO::main: Logging initialized @200ms
-21:46:55.184 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-21:46:55.185 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+22:45:51.173 INFO - Selenium build info: version: '3.0.0', revision: '350cf60'
+22:45:51.174 INFO - Launching a standalone Selenium Server
+2016-11-02 22:45:51.188:INFO::main: Logging initialized @204ms
+22:45:51.234 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:45:51.234 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-21:46:55.185 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-21:46:55.185 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-21:46:55.190 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+22:45:51.234 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:45:51.234 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+22:45:51.239 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2016-11-01 21:46:55.218:INFO:osjs.Server:main: jetty-9.2.15.v20160210
-2016-11-01 21:46:55.239:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
-2016-11-01 21:46:55.316:INFO:osjs.ServerConnector:main: Started ServerConnector@26653222{HTTP/1.1}{0.0.0.0:4444}
-2016-11-01 21:46:55.316:INFO:osjs.Server:main: Started @376ms
-21:46:55.316 INFO - Selenium Server is up and running
-21:46:55.505 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-21:46:55.531 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]])
-21:46:55.536 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]
-[21:46:55.735] - Listening on http://localhost:21575/ 
-21:46:56.262 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-21:46:56.795 INFO - Detected dialect: OSS
-21:46:56.811 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]]
-21:46:56.827 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net])
-21:46:57.916 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net]
-21:46:57.938 INFO - Executing: [find elements: By.cssSelector: body])
-21:46:57.966 INFO - Done: [find elements: By.cssSelector: body]
-21:46:57.970 INFO - Executing: [is displayed: 0 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: body]])
-21:46:57.975 INFO - Done: [is displayed: 0 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: body]]
-21:46:57.981 INFO - Executing: [get title])
-21:46:57.985 INFO - Done: [get title]
-21:46:57.991 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
-21:46:57.995 INFO - Done: [find element: By.cssSelector: .welcome-screen]
-21:46:58.000 INFO - Executing: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]])
-21:46:58.006 INFO - Done: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]]
-21:46:58.016 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
-21:46:58.022 INFO - Done: [find element: By.cssSelector: .welcome-screen]
-21:46:58.025 INFO - Executing: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]])
-21:46:58.030 INFO - Done: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen]]
-21:46:58.038 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
-21:46:58.043 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
-21:46:58.048 INFO - Executing: [send keys: 2 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
-21:46:58.070 INFO - Done: [send keys: 2 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
-21:46:58.076 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:46:58.080 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:46:58.588 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:46:58.600 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:46:58.611 INFO - Executing: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:46:58.619 INFO - Done: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:46:58.628 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:46:58.635 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:46:58.641 INFO - Executing: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:46:58.646 INFO - Done: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:46:58.661 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
-21:46:58.667 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
-21:46:58.675 INFO - Executing: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]])
-21:46:58.708 INFO - Done: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]]
-21:46:58.714 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:46:58.723 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:46:59.234 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:46:59.245 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:46:59.259 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
-21:46:59.271 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
-21:46:59.283 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:46:59.289 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:46:59.295 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
-21:46:59.301 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
-21:46:59.310 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
-21:46:59.313 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
-21:46:59.320 INFO - Executing: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [?]])
-21:46:59.327 INFO - Done: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__input], [?]]
-21:46:59.331 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
-21:46:59.336 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
-21:46:59.340 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
-21:46:59.344 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
-21:46:59.350 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)])
-21:46:59.357 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)]
-21:46:59.361 INFO - Executing: [get element attribute: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class])
-21:46:59.367 INFO - Done: [get element attribute: 8 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class]
-21:46:59.379 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018])
-21:46:59.642 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018]
-21:46:59.650 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
-21:46:59.656 INFO - Done: [find elements: By.cssSelector: .adress-tile]
-21:47:00.164 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
-21:47:00.174 INFO - Done: [find elements: By.cssSelector: .adress-tile]
-21:47:00.181 INFO - Executing: [is displayed: 12 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile]])
-21:47:00.187 INFO - Done: [is displayed: 12 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile]]
-21:47:00.199 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
-21:47:00.205 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
-21:47:00.212 INFO - Executing: [send keys: 13 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
-21:47:00.231 INFO - Done: [send keys: 13 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
-21:47:00.237 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:47:00.241 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:47:00.749 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:47:00.759 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:47:00.769 INFO - Executing: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:47:00.797 INFO - Done: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:47:00.805 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
-21:47:00.811 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
-21:47:00.815 INFO - Executing: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
-21:47:00.820 INFO - Done: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
-21:47:00.828 INFO - Executing: [find element: By.cssSelector: .adress-tile__adress-name])
-21:47:00.832 INFO - Done: [find element: By.cssSelector: .adress-tile__adress-name]
-21:47:00.837 INFO - Executing: [get text: 18 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile__adress-name]])
-21:47:00.840 INFO - Done: [get text: 18 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .adress-tile__adress-name]]
-21:47:00.847 INFO - Executing: [find element: By.cssSelector: .find-supplier])
-21:47:00.853 INFO - Done: [find element: By.cssSelector: .find-supplier]
-21:47:00.857 INFO - Executing: [is displayed: 19 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .find-supplier]])
-21:47:00.860 INFO - Done: [is displayed: 19 [[EdgeDriver: MicrosoftEdge on ANY (02DD8697-4E17-4BCA-80FA-BE198A6A3A03)] -> css selector: .find-supplier]]
-21:47:00.868 INFO - Executing: [delete session: f7d4fff1-3ae3-44d6-8365-44419cda6b73])
-[21:47:03.061] - Stopping server.
-21:47:03.865 INFO - Done: [delete session: f7d4fff1-3ae3-44d6-8365-44419cda6b73]
+2016-11-02 22:45:51.267:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-11-02 22:45:51.291:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
+2016-11-02 22:45:51.369:INFO:osjs.ServerConnector:main: Started ServerConnector@26653222{HTTP/1.1}{0.0.0.0:4444}
+2016-11-02 22:45:51.370:INFO:osjs.Server:main: Started @385ms
+22:45:51.370 INFO - Selenium Server is up and running
+22:45:51.558 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+22:45:51.584 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]])
+22:45:51.590 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]
+[22:45:51.778] - Listening on http://localhost:32405/ 
+22:45:52.332 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+22:45:52.749 INFO - Detected dialect: OSS
+22:45:52.765 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Home, browserName=MicrosoftEdge, javascriptEnabled=true, platform=ANY}]]
+22:45:52.786 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net])
+22:45:53.117 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net]
+22:45:53.125 INFO - Executing: [find elements: By.cssSelector: body])
+22:45:53.192 INFO - Done: [find elements: By.cssSelector: body]
+22:45:53.198 INFO - Executing: [is displayed: 0 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: body]])
+22:45:53.228 INFO - Done: [is displayed: 0 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: body]]
+22:45:53.237 INFO - Executing: [get title])
+22:45:53.240 INFO - Done: [get title]
+22:45:53.250 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
+22:45:53.255 INFO - Done: [find element: By.cssSelector: .welcome-screen]
+22:45:53.260 INFO - Executing: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen]])
+22:45:53.265 INFO - Done: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen]]
+22:45:53.277 INFO - Executing: [find element: By.cssSelector: .welcome-screen])
+22:45:53.284 INFO - Done: [find element: By.cssSelector: .welcome-screen]
+22:45:53.288 INFO - Executing: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen]])
+22:45:53.291 INFO - Done: [is displayed: 1 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen]]
+22:45:53.301 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__input])
+22:45:53.305 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__input]
+22:45:53.309 INFO - Executing: [send keys: 2 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+22:45:53.332 INFO - Done: [send keys: 2 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-search__header .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+22:45:53.340 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:45:53.344 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:45:53.853 INFO - Executing: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:45:53.866 INFO - Done: [find elements: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:45:53.876 INFO - Executing: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+22:45:53.884 INFO - Done: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+22:45:53.899 INFO - Executing: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item])
+22:45:53.906 INFO - Done: [find element: By.cssSelector: .adress-search__header .adress-search__autocomplete-item]
+22:45:53.911 INFO - Executing: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-search__header .adress-search__autocomplete-item]])
+22:45:53.917 INFO - Done: [is displayed: 3 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-search__header .adress-search__autocomplete-item]]
+22:45:53.930 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
+22:45:53.936 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
+22:45:53.941 INFO - Executing: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]])
+22:45:53.956 INFO - Done: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__input], [t, a, s, k, e, b, j, e, r]]
+22:45:53.961 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:45:53.967 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:45:54.474 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:45:54.487 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:45:54.501 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+22:45:54.508 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+22:45:54.517 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:45:54.522 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:45:54.527 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+22:45:54.533 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+22:45:54.541 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__input])
+22:45:54.549 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__input]
+22:45:54.555 INFO - Executing: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__input], [?]])
+22:45:54.565 INFO - Done: [send keys: 7 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__input], [?]]
+22:45:54.570 INFO - Executing: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item])
+22:45:54.577 INFO - Done: [find elements: By.cssSelector: .welcome-screen .adress-search__autocomplete-item]
+22:45:54.585 INFO - Executing: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item]])
+22:45:54.594 INFO - Done: [is displayed: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item]]
+22:45:54.601 INFO - Executing: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)])
+22:45:54.605 INFO - Done: [find element: By.cssSelector: .welcome-screen .adress-search__autocomplete-item:nth-of-type(1)]
+22:45:54.609 INFO - Executing: [get element attribute: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class])
+22:45:54.618 INFO - Done: [get element attribute: 8 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .welcome-screen .adress-search__autocomplete-item], class]
+22:45:54.627 INFO - Executing: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018])
+22:45:54.853 INFO - Done: [get: https://solar-potential-version-3.azurewebsites.net/house-page/0a3f50c5-3256-32b8-e044-0003ba298018]
+22:45:54.862 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
+22:45:54.870 INFO - Done: [find elements: By.cssSelector: .adress-tile]
+22:45:55.378 INFO - Executing: [find elements: By.cssSelector: .adress-tile])
+22:45:55.383 INFO - Done: [find elements: By.cssSelector: .adress-tile]
+22:45:55.390 INFO - Executing: [is displayed: 12 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-tile]])
+22:45:55.394 INFO - Done: [is displayed: 12 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-tile]]
+22:45:55.403 INFO - Executing: [find element: By.cssSelector: .adress-tile__adress-name])
+22:45:55.407 INFO - Done: [find element: By.cssSelector: .adress-tile__adress-name]
+22:45:55.412 INFO - Executing: [get text: 13 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-tile__adress-name]])
+22:45:55.416 INFO - Done: [get text: 13 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .adress-tile__adress-name]]
+22:45:55.423 INFO - Executing: [find element: By.cssSelector: .find-supplier])
+22:45:55.428 INFO - Done: [find element: By.cssSelector: .find-supplier]
+22:45:55.433 INFO - Executing: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .find-supplier]])
+22:45:55.438 INFO - Done: [is displayed: 14 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .find-supplier]]
+22:45:55.445 INFO - Executing: [find element: By.cssSelector: #electricity-production-questionmark])
+22:45:55.450 INFO - Done: [find element: By.cssSelector: #electricity-production-questionmark]
+22:45:55.454 INFO - Executing: [click: 15 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: #electricity-production-questionmark]])
+22:45:55.980 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+22:45:55.982 WARN - Exception: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+22:45:56.225 INFO - Executing: [find element: By.cssSelector: #electricity-production-questionmark])
+22:45:56.230 INFO - Done: [find element: By.cssSelector: #electricity-production-questionmark]
+22:45:56.234 INFO - Executing: [click: 15 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: #electricity-production-questionmark]])
+22:45:56.622 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+22:45:56.623 WARN - Exception: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+22:45:56.852 INFO - Executing: [find element: By.cssSelector: #electricity-production-questionmark])
+22:45:56.856 INFO - Done: [find element: By.cssSelector: #electricity-production-questionmark]
+22:45:56.860 INFO - Executing: [click: 15 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: #electricity-production-questionmark]])
+22:45:57.270 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+22:45:57.271 WARN - Exception: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+22:45:57.468 INFO - Executing: [find element: By.cssSelector: #electricity-production-questionmark])
+22:45:57.472 INFO - Done: [find element: By.cssSelector: #electricity-production-questionmark]
+22:45:57.476 INFO - Executing: [click: 15 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: #electricity-production-questionmark]])
+22:45:57.895 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+22:45:57.896 WARN - Exception: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+22:45:58.095 INFO - Executing: [find element: By.cssSelector: .find-supplier])
+22:45:58.099 INFO - Done: [find element: By.cssSelector: .find-supplier]
+22:45:58.102 INFO - Executing: [click: 14 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .find-supplier]])
+22:45:58.542 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+22:45:58.543 WARN - Exception: Element is obscured (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:16 -0700'
+System info: host: 'DESKTOP-FEB8Q3N', ip: '192.168.1.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, acceptSslCerts=true, browserVersion=38.14393.0.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 54945710-7B5A-4B58-9570-65B0CACBD706
+22:45:58.720 INFO - Executing: [find element: By.cssSelector: .get-offer-modal])
+22:45:58.724 INFO - Done: [find element: By.cssSelector: .get-offer-modal]
+22:45:58.728 INFO - Executing: [is displayed: 16 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .get-offer-modal]])
+22:45:58.732 INFO - Done: [is displayed: 16 [[EdgeDriver: MicrosoftEdge on ANY (54945710-7B5A-4B58-9570-65B0CACBD706)] -> css selector: .get-offer-modal]]
+22:45:58.740 INFO - Executing: [delete session: 948c5c01-7d90-44a0-a644-5efc079e8bba])
+[22:46:00.914] - Stopping server.
+22:46:01.628 INFO - Done: [delete session: 948c5c01-7d90-44a0-a644-5efc079e8bba]

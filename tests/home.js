@@ -15,7 +15,6 @@ module.exports = {
         client
             .url(client.testUrl)
             .waitForElementVisible('body', 5000)
-            //.assert.attributeEquals('body', 'data-foo', 'bar')
             .assert.title('Sunmapper - Din guide til solceller')
             .assert.visible('.welcome-screen');
     },
@@ -35,7 +34,6 @@ module.exports = {
         }
     },
     'Main autocomplete suggestions': function(client) {
-
         client
             .setValue('.welcome-screen .adress-search__input', 'taskebjer')
             .waitForElementVisible('.welcome-screen .adress-search__autocomplete-item', 5000)
@@ -52,18 +50,22 @@ module.exports = {
                 .assert.visible('.header-link[href="/faq"]');
         }
     },
+    'Click the loop for searching': function(client) {
+        /*
+        client
+            .url(client.testUrl)
+            .waitForElementVisible('body', 5000)
+            .setValue('.welcome-screen .adress-search__input', 'taskebjer')
+            .click('.adress-search__autocomplete-loop')
+            .pause(3000)
+            .waitForElementVisible('.adress-tile', 5000)
+            .assert.containsText('.adress-tile__adress-name', 'Taskebjergvej 34, 8620 Kjellerup');
+            */
+    },
     'Load specific housepage': function(client) {
         client
             .url(client.testUrl + '/house-page/0a3f50c5-3256-32b8-e044-0003ba298018')
             .waitForElementVisible('.adress-tile', 5000);
-    },
-    'Specific housepage autocomplete suggestions': function(client) {
-        if (client.options.desiredCapabilities.platform !== "android") {
-            client
-                .setValue('.adress-search__header .adress-search__input', 'taskebjer')
-                .waitForElementVisible('.adress-search__header .adress-search__autocomplete-item', 5000)
-                .assert.visible('.adress-search__header .adress-search__autocomplete-item');
-        }
     },
     'Correct house': function(client) {
         client
@@ -72,6 +74,44 @@ module.exports = {
     'Find leverandører visible': function(client) {
         client
             .assert.visible('.find-supplier');
+    },
+    'Uddyb button working with close': function(client) {
+        client
+            .click("#electricity-production-questionmark")
+            .assert.visible('.info-box')
+            .click(".info-box__close")
+            .assert.hidden('.info-box')
+            .click("#adjust-grants-period-questionmark")
+            .assert.visible('.info-box')
+            .click(".info-box__close")
+            .assert.hidden('.info-box')
+            .click("#solar-size-questionmark")
+            .assert.visible('.info-box')
+            .click(".info-box__close")
+            .assert.hidden('.info-box')
+            .click("#property-electricity-consumption-questionmark")
+            .assert.visible('.info-box')
+            .click(".info-box__close")
+            .assert.hidden('.info-box')
+            .click("#payback-years-questionmark")
+            .assert.visible('.info-box')
+            .click(".info-box__close")
+            .assert.hidden('.info-box');
+    },
+    'Find supplier modal visible': function(client) {
+        client
+            .click(".find-supplier")
+            .assert.visible('.get-offer-modal')
+            .click(".get-offer-modal__close")
+            .assert.hidden('.get-offer-modal');
+    },
+    'Specific housepage autocomplete suggestions': function(client) {
+        if (client.options.desiredCapabilities.platform !== "android") {
+            client
+                .setValue('.adress-search__header .adress-search__input', 'taskebjer')
+                .waitForElementVisible('.adress-search__header .adress-search__autocomplete-item', 5000)
+                .assert.visible('.adress-search__header .adress-search__autocomplete-item');
+        }
     },
     'Menu expands on mobile': function(client) {
         if (client.options.desiredCapabilities.platform === "android") {
@@ -84,5 +124,4 @@ module.exports = {
     after: function(client) {
         client.end();
     }
-
 };

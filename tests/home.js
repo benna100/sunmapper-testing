@@ -14,7 +14,7 @@ module.exports = {
     'Load sunmapper.com': function(client) {
         client
             .url(client.testUrl)
-            .waitForElementVisible('body', 5000)
+            .waitForElementVisible('body', 15000)
             .assert.title('Sunmapper - Din guide til solceller')
             .assert.visible('.welcome-screen');
     },

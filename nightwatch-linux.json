@@ -11,7 +11,7 @@
         "log_path": "",
         "port": 4444,
         "cli_args": {
-            "webdriver.chrome.driver": "drivers/chromedriver_win32/chromedriver.exe",
+            "webdriver.chrome.driver": "drivers/chromedriver_linux64/chromedriver",
             "webdriver.gecko.driver": "drivers/geckodriver-v0.11.1-win64/geckodriver.exe",
             "webdriver.edge.driver": "drivers/MicrosoftWebDriver.exe"
         }
